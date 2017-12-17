@@ -6,11 +6,12 @@ const StoryDetailsPage = ({story}) => {
     <div>
       <header>Story Details Page</header>
       <h4>{story.title}</h4>
-      <p>
-        <span>Score: {story.score}</span>
-        <span>Comments: {story.descendants}</span>
-        <span>Author: {story.by}</span>
-      </p>
+      <div>
+        <p>Score: {story.score}</p>
+        <p>Comments: {story.descendants}</p>
+        <p>Author: {story.by}</p>
+        <p>Website: {story.url}</p>
+      </div>
     </div>
   )
 }
