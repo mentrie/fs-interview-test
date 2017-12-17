@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render component with empty props 1`] = `
+<div>
+  <header>
+    Story Details Page
+  </header>
+  <h4 />
+  <div>
+    <p>
+      Score: 
+    </p>
+    <p>
+      Comments: 
+    </p>
+    <p>
+      Author: 
+    </p>
+    <p>
+      Website: 
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Should render component with props provided 1`] = `
+<div>
+  <header>
+    Story Details Page
+  </header>
+  <h4>
+    Testing
+  </h4>
+  <div>
+    <p>
+      Score: 
+    </p>
+    <p>
+      Comments: 
+    </p>
+    <p>
+      Author: 
+    </p>
+    <p>
+      Website: 
+    </p>
+  </div>
+</div>
+`;

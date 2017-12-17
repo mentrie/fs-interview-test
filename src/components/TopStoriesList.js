@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import { List, ListItem } from 'react-mdl';
 import Link from 'react-router-dom/Link';
 
-const TopStoriesList = ({stories, onClick}) => {
+const TopStoriesList = ({stories}) => {
   const renderListItems = () => {
     return stories.map(story => (
-      <Link to={`/${story.id}`} key={story.id}>
-        <ListItem>{story.title}</ListItem>
-      </Link>))
+      <div key={story.id}>
+        <Link to={`/${story.id}`}>
+          <ListItem>{story.title}</ListItem>
+        </Link>
+      </div>))
   }
 
   return (
